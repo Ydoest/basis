@@ -1,0 +1,16 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /develop
+
+---
+
+spring:
+  data:
+    mongodb:
+      host: 38.6.174.40
+      port: 40017
+      authentication-database: admin
+      database: learn
+      username: admin
+      password: 123456
