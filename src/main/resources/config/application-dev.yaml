@@ -10,6 +10,7 @@ spring:
     mongodb:
       host: 38.6.174.40
       port: 40017
-      database: admin
+      database: ydoest
       username: admin
       password: 123456
+      authentication-database: admin

@@ -31,7 +31,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter' // 添加Spring Boot启动器依赖
     testImplementation 'org.springframework.boot:spring-boot-starter-test' // 添加Spring Boot测试启动器依赖
     implementation 'org.springframework.boot:spring-boot-devtools' // 添加Spring Boot开发工具依赖
-    implementation 'org.springframework.boot:spring-boot-starter-data-jpa' // 添加Spring Data JPA启动器依赖
+    // implementation 'org.springframework.boot:spring-boot-starter-data-jpa' // 添加Spring Data JPA启动器依赖
     implementation('org.springframework.boot:spring-boot-starter-web') { // 添加Spring Web启动器依赖
         exclude group: 'org.springframework.boot', module: 'spring-boot-starter-tomcat' // 排除Tomcat依赖
     }
@@ -40,7 +40,6 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-undertow' // 添加Undertow依赖
     implementation 'org.springframework.boot:spring-boot-starter-data-mongodb' // 添加Spring Data MongoDB启动器依赖
     implementation "cn.hutool:hutool-all:${hutool_version}" // 添加hutool依赖，使用前面定义的版本号
-
 }
 
 tasks.named('test') {
