@@ -31,6 +31,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter' // 添加Spring Boot启动器依赖
     testImplementation 'org.springframework.boot:spring-boot-starter-test' // 添加Spring Boot测试启动器依赖
     implementation 'org.springframework.boot:spring-boot-devtools' // 添加Spring Boot开发工具依赖
+    // JPA是Java持久化规范的一部分，它提供了一种方式将Java对象映射到关系型数据库中。它是为关系型数据库设计的，因此不能与MongoDB一样的文档型数据库进行交互。
     // implementation 'org.springframework.boot:spring-boot-starter-data-jpa' // 添加Spring Data JPA启动器依赖
     implementation('org.springframework.boot:spring-boot-starter-web') { // 添加Spring Web启动器依赖
         exclude group: 'org.springframework.boot', module: 'spring-boot-starter-tomcat' // 排除Tomcat依赖
